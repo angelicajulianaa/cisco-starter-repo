@@ -1,5 +1,66 @@
-.App {
+.App 
+{
   text-align: center;
+  background-color: #fef9f8;
+}
+
+.Title
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #5d625d;
+  background-color: #f2ede3;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.title-text
+{
+  font-size: 27pt;
+  color: #273f35;
+}
+
+.Card1
+{
+  display: inline-block;
+  margin-top: 50px;
+  width:18rem;
+  background-color: #416a59;
+  color: white;
+  height: 300px;
+}
+
+.Card2
+{
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 100px;
+  width:18rem;
+  background-color: #73a24e;
+  color: white;
+  height: 300px;
+}
+
+.Card3
+{
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 100px;
+  width:18rem;
+  background-color: #a9c25d;
+  color: white;
+  height: 300px;
+}
+
+.card-subtitle
+{
+  color: lightgrey;
+  margin-top: -10px;
+}
+
+.card-text
+{
+  margin-top: -10px;
+  font-size: 10pt;
 }
 
 .App-logo {
