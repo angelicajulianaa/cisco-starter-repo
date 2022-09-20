@@ -37,8 +37,28 @@ function App() {
         </div>
       </div>
 
+      <div class = "ip">
+      <div class = "ip4">
+      <h4>User's IPv4 is:</h4>
+      <p id = "ipv4"></p>
+      </div>
+      <hr></hr>
+      <div class = "ip6">
+      <h4>User's IPv6 is:</h4>
+      <p id = "ipv6"></p>
+      </div>
+      </div>
     </div>
   );
 }
+
+fetch('https://api.ipify.org/?format=json')
+.then(results => results.json())
+.then (data => (document.getElementById("ipv4").innerHTML = data.ip));
+
+fetch('https://api64.ipify.org?format=json')
+.then(results => results.json())
+.then (data => (document.getElementById("ipv6").innerHTML = data.ip));
+
 
 export default App;

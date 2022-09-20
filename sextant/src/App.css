@@ -63,6 +63,25 @@
   font-size: 10pt;
 }
 
+.ip
+{
+  background-color: rgb(245, 255, 245);
+  margin-top: 50px;
+}
+
+.ip4 h4, .ip4 p
+{
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.ip6 h4, .ip6 p
+{
+  display: inline-block;
+  margin-right: 5px;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
