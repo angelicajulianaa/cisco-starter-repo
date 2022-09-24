@@ -1,6 +1,11 @@
 .App 
 {
   text-align: center;
+  
+}
+
+body
+{
   background-color: #fef9f8;
 }
 
@@ -26,7 +31,9 @@
   width:18rem;
   background-color: #416a59;
   color: white;
-  height: 300px;
+  height: auto;
+  margin-bottom: 50px;
+  padding: 5px;
 }
 
 .Card2
@@ -37,7 +44,8 @@
   width:18rem;
   background-color: #73a24e;
   color: white;
-  height: 300px;
+  height: auto;
+  padding: 5px;
 }
 
 .Card3
@@ -48,13 +56,8 @@
   width:18rem;
   background-color: #a9c25d;
   color: white;
-  height: 300px;
-}
-
-.card-subtitle
-{
-  color: lightgrey;
-  margin-top: -10px;
+  height: auto;
+  padding: 5px;
 }
 
 .card-text
@@ -68,19 +71,6 @@
   background-color: rgb(245, 255, 245);
   margin-top: 50px;
 }
-
-.ip4 h4, .ip4 p
-{
-  display: inline-block;
-  margin-right: 5px;
-}
-
-.ip6 h4, .ip6 p
-{
-  display: inline-block;
-  margin-right: 5px;
-}
-
 
 .App-logo {
   height: 40vmin;

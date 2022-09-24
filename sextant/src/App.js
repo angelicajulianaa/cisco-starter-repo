@@ -7,7 +7,8 @@ import './App.css';
 function App() {
 
   return (
-    <div className="App">
+    <body>
+<div className="App">
       <div class = "Title">
       <h1 class = "title-text">SEXTANT</h1>
       <p class = "title-paragraph">Sextant is a locally hosted single-page application meant to assist field technicians in their day-to-day.</p>
@@ -15,40 +16,27 @@ function App() {
 
       <div class = "Card1">
         <div class = "card-body">
-          <h4 class = "card-title">Card 1</h4>
-          <h6 class = "card-subtitle">This is Card 1</h6>
-          <p class = "card-text">This is Card 1 out of 3</p>
+          <h4 class = "card-title">Public IPv4 Address</h4>
+          <p id = "ipv4"></p>
         </div>
       </div>
 
       <div class = "Card2">
         <div class = "card-body">
-          <h4 class = "card-title">Card 2</h4>
-          <h6 class = "card-subtitle">This is Card 2</h6>
-          <p class = "card-text">This is Card 2 out of 3</p>
+        <h4 class = "card-title">Public IPv6 Address</h4>
+          <p id = "ipv6"></p>
         </div>
       </div>
 
       <div class = "Card3">
         <div class = "card-body">
-          <h4 class = "card-title">Card 3</h4>
-          <h6 class = "card-subtitle">This is Card 3</h6>
-          <p class = "card-text">This is Card 3 out of 3</p>
+          <h4 class = "card-title">Packet Latency from Pylon</h4>
+          <p><pylon/></p>
         </div>
       </div>
-
-      <div class = "ip">
-      <div class = "ip4">
-      <h4>User's IPv4 is:</h4>
-      <p id = "ipv4"></p>
-      </div>
-      <hr></hr>
-      <div class = "ip6">
-      <h4>User's IPv6 is:</h4>
-      <p id = "ipv6"></p>
-      </div>
-      </div>
     </div>
+    </body>
+    
   );
 }
 
